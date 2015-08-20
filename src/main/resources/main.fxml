@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField id="link" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="433.0" promptText="http://youtube.com/ljsdhfiuwehrt893-" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="153.0" AnchorPane.topAnchor="14.0" />
+      <ListView id="list" layoutX="14.0" layoutY="50.0" prefHeight="313.0" prefWidth="572.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="50.0" />
+      <Button id="process" layoutX="457.0" layoutY="14.0" mnemonicParsing="false" prefWidth="60.0" text="Process" AnchorPane.rightAnchor="83.0" />
+      <Button id="save" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" prefWidth="60.0" text="Save" AnchorPane.rightAnchor="14.0" />
+   </children>
+</AnchorPane>
